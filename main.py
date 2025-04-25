@@ -1,1 +1,2 @@
-print(dir(bool))
+print(dir(str))
+# print(str.find())

@@ -10,7 +10,7 @@
 - 4. Queue ✅
 - 5. Binary Tree
 - 8. Heap
-- 9. String
+- 9. String ✅
 - 10. Boolean ✅
 - 11. Dynamic Array
 - 12. Set
