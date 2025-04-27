@@ -12,7 +12,7 @@
 - 8. Heap
 - 9. String ✅
 - 10. Boolean ✅
-- 11. Dynamic Array
+- 11. Dynamic Array ✅
 - 12. Set
 
 - 13. Graph
