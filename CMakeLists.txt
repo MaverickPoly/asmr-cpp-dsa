@@ -31,8 +31,13 @@ add_executable(Circle
 
 add_executable(Stack
     DataStructures/Node/Stack/main.cpp
-        DataStructures/Node/Stack/stack.tpp
-        DataStructures/Node/Stack/stack.h
+    DataStructures/Node/Stack/stack.tpp
+    DataStructures/Node/Stack/stack.h
+)
+add_executable(Queue
+    DataStructures/Node/Queue/main.cpp
+        DataStructures/Node/Queue/queue.tpp
+        DataStructures/Node/Queue/queue.h
 )
 
 
