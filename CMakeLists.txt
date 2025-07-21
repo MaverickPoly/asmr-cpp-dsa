@@ -36,8 +36,13 @@ add_executable(Stack
 )
 add_executable(Queue
     DataStructures/Node/Queue/main.cpp
-        DataStructures/Node/Queue/queue.tpp
-        DataStructures/Node/Queue/queue.h
+    DataStructures/Node/Queue/queue.tpp
+    DataStructures/Node/Queue/queue.h
+)
+add_executable(LinkedList
+    DataStructures/Node/LinkedList/main.cpp
+        DataStructures/Node/LinkedList/linked_list.tpp
+        DataStructures/Node/LinkedList/linked_list.h
 )
 
 
