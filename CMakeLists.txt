@@ -41,8 +41,8 @@ add_executable(Queue
 )
 add_executable(LinkedList
     DataStructures/Node/LinkedList/main.cpp
-        DataStructures/Node/LinkedList/linked_list.tpp
-        DataStructures/Node/LinkedList/linked_list.h
+    DataStructures/Node/LinkedList/linked_list.tpp
+    DataStructures/Node/LinkedList/linked_list.h
 )
 
 
@@ -50,7 +50,15 @@ add_executable(LinkedList
 
 
 # =================== Algorithms
+# Sort
+add_executable(BubbleSort Algorithms/Sorting/bubble_sort.cpp)
+add_executable(SelectionSort Algorithms/Sorting/selection_sort.cpp)
+add_executable(InsertionSort Algorithms/Sorting/insertion_sort.cpp)
+add_executable(QuickSort Algorithms/Sorting/quick_sort.cpp)
 
+# Search
+add_executable(LinearSearch Algorithms/Searching/linear_search.cpp)
+add_executable(BinarySearch Algorithms/Searching/binary_search.cpp)
 
 
 
