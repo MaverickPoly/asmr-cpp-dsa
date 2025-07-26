@@ -46,6 +46,14 @@ add_executable(LinkedList
 )
 
 
+add_executable(DynamicList
+        DataStructures/General/DynamicList/main.cpp
+        DataStructures/General/DynamicList/dynamic_list.tpp
+        DataStructures/General/DynamicList/dynamic_list.h
+)
+
+
+
 
 
 
@@ -60,6 +68,11 @@ add_executable(QuickSort Algorithms/Sorting/quick_sort.cpp)
 add_executable(LinearSearch Algorithms/Searching/linear_search.cpp)
 add_executable(BinarySearch Algorithms/Searching/binary_search.cpp)
 
+
+
+
+# =================== Algebra
+add_executable(QuadraticEquation Algebra/QuadraticEquation/main.cpp)
 
 
 set_target_properties(Point2D PROPERTIES FOLDER "Geometry")
