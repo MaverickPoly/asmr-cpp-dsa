@@ -51,6 +51,11 @@ add_executable(DynamicList
         DataStructures/General/DynamicList/dynamic_list.tpp
         DataStructures/General/DynamicList/dynamic_list.h
 )
+add_executable(Str
+        DataStructures/General/String/main.cpp
+        DataStructures/General/String/str.cpp
+        DataStructures/General/String/str.h
+)
 
 
 
